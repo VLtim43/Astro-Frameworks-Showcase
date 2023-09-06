@@ -1,0 +1,42 @@
+{
+  "name": "home-user-programs-analog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@analogjs/astro-angular": "^0.2.2",
+    "@angular-devkit/build-angular": "^16.2.1",
+    "@angular/animations": "^16.2.3",
+    "@angular/common": "^16.2.3",
+    "@angular/compiler": "^16.2.3",
+    "@angular/compiler-cli": "^16.2.3",
+    "@angular/core": "^16.2.3",
+    "@angular/language-service": "^16.2.3",
+    "@angular/platform-browser": "^16.2.3",
+    "@angular/platform-browser-dynamic": "^16.2.3",
+    "@angular/platform-server": "^16.2.3",
+    "@astrojs/preact": "^3.0.0",
+    "@astrojs/react": "^3.0.0",
+    "@astrojs/solid-js": "^3.0.0",
+    "@astrojs/svelte": "^4.0.0",
+    "@astrojs/vue": "^3.0.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "astro": "^3.0.8",
+    "preact": "^10.17.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rxjs": "^7.8.1",
+    "solid-js": "^1.7.11",
+    "svelte": "^4.2.0",
+    "tslib": "^2.6.2",
+    "vue": "^3.3.4",
+    "zone.js": "^0.13.1"
+  }
+}

@@ -1,0 +1,23 @@
+---
+
+import SvelteComponent from '../components/SvelteComponent.svelte';
+import {AngularComponent} from '../components/angular.component';
+import {ReactComponent} from '../components/ReactComponent';
+import VueComponent from '../components/vueComponent.vue';
+import Layout from '../layouts/Layout.astro';
+import SolidComponent from '../components/SolidComponent';
+import PreactComponent from '../components/PreactComponent';
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+    	<AngularComponent/>
+		<ReactComponent/>
+		<VueComponent />
+		<SvelteComponent/>
+		<SolidComponent/>
+		<PreactComponent/>
+	
+	</main>
+</Layout>
