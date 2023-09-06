@@ -22,3 +22,8 @@ Astro is a fresh take on modern web development. It allows you to build faster, 
 - 🔥 **Hot Module Replacement (HMR)**: Enjoy fast updates during development.
 
 For more details, please refer to the [official Astro documentation](https://docs.astro.build/).
+
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/fb17da9d-b9c4-4b56-b485-c5259ca0fcf9)
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/0291055f-8797-4325-be8a-538c19891d40)
+
+
