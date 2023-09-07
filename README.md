@@ -23,8 +23,11 @@ Astro is a fresh take on modern web development. It allows you to build faster, 
 
 For more details, please refer to the [official Astro documentation](https://docs.astro.build/).
 
-![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/fb17da9d-b9c4-4b56-b485-c5259ca0fcf9)
-![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/aa193e9e-0a00-4927-af96-ba87f874dcc7)
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/9e77cc45-4e1e-43fa-ba3e-962016823cae)
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/9e704c08-9882-45e1-b739-1fc972ab6a0d)
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/8a251901-91cd-4b39-9760-b4a5020be10b)
+
+
 
 
 
