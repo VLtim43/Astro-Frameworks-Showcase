@@ -1,6 +1,7 @@
 # My Astro Project
 
-This repository contains my project built with [Astro](https://astro.build/), a modern front-end framework.
+This repository contains my project built with [Astro](https://astro.build/), a modern front-end framework. Notably, this project showcases the integration of all the frontend frameworks compatible with Astro.
+
 
 ## About Astro
 
