@@ -7,16 +7,17 @@ import VueComponent from '../components/VueComponent.vue';
 import Layout from '../layouts/Layout.astro';
 import SolidComponent from '../components/SolidComponent';
 import PreactComponent from '../components/PreactComponent';
-
+import { LitComponent } from '../components/LitComponent.js';
 ---
 
 <Layout title="Welcome to Astro.">
-	<main class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+	<main class="flex flex-col items-center justify-center min-h-screen bg-neutral-200 p-6">
     	<AngularComponent/>
 		<ReactComponent/>
 		<VueComponent />
 		<SvelteComponent/>
 		<SolidComponent/>
 		<PreactComponent/>
+		<LitComponent />
 	</main>
 </Layout>
