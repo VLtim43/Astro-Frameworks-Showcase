@@ -13,6 +13,10 @@ Astro is a fresh take on modern web development. It allows you to build faster, 
 - **Vue**: [https://vuejs.org/](https://vuejs.org/)
 - **Svelte**: [https://svelte.dev/](https://svelte.dev/)
 - **Solid**: [https://solidjs.com/](https://solidjs.com/)
+- **Angular**: [https://angular.io/](https://angular.io/) (with [https://analogjs.org/](https://analogjs.org/))
+- **Lit**: [https://lit.dev/](https://lit.dev/)
+- **Alpine**: [https://alpinejs.dev/](https://alpinejs.dev/)
+- **Tailwind CSS**: [https://tailwindcss.com/](https://tailwindcss.com/)
 
 ### Key Features of Astro:
 
@@ -24,8 +28,8 @@ Astro is a fresh take on modern web development. It allows you to build faster, 
 For more details, please refer to the [official Astro documentation](https://docs.astro.build/).
 
 ![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/06f65bf1-7598-4e54-a866-207a3aa2bbe2)
-![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/497e39d4-ef58-4bd8-9d7f-fa0f652bac2b)
-![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/15e02a72-fb1a-419d-81bd-477d905469c3)
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/ac560c6d-cb4b-464a-9c1a-9a48fdd26dfc)
+![image](https://github.com/VLtim43/Astro-FrontEnd-Frameworks-Showcase/assets/69370181/f90359d4-14c9-4de5-be5c-fbc27d69d583)
 
 
 
