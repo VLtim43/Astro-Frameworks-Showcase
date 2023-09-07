@@ -8,6 +8,7 @@ import Layout from '../layouts/Layout.astro';
 import SolidComponent from '../components/SolidComponent';
 import PreactComponent from '../components/PreactComponent';
 import { LitComponent } from '../components/LitComponent.js';
+import AlpineComponent from '../components/AlpineComponent.html';  
 ---
 
 <Layout title="Welcome to Astro.">
@@ -15,9 +16,10 @@ import { LitComponent } from '../components/LitComponent.js';
     	<AngularComponent/>
 		<ReactComponent/>
 		<VueComponent />
+		<LitComponent />
 		<SvelteComponent/>
 		<SolidComponent/>
 		<PreactComponent/>
-		<LitComponent />
+		<AlpineComponent/>
 	</main>
 </Layout>
