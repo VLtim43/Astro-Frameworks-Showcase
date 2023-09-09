@@ -15,7 +15,6 @@ Astro is a fresh take on modern web development. It allows you to build faster, 
 - **Svelte**: [https://svelte.dev/](https://svelte.dev/)
 - **Solid**: [https://solidjs.com/](https://solidjs.com/)
 - **Angular**: [https://angular.io/](https://angular.io/) (with [https://analogjs.org/](https://analogjs.org/))
-- **Lit**: [https://lit.dev/](https://lit.dev/)
 - **Alpine**: [https://alpinejs.dev/](https://alpinejs.dev/)
 - **Tailwind CSS**: [https://tailwindcss.com/](https://tailwindcss.com/)
 
