@@ -22,7 +22,6 @@
     "@angular/platform-browser-dynamic": "^16.2.3",
     "@angular/platform-server": "^16.2.3",
     "@astrojs/alpinejs": "^0.3.0",
-    "@astrojs/lit": "^3.0.0",
     "@astrojs/preact": "^3.0.0",
     "@astrojs/react": "^3.0.0",
     "@astrojs/solid-js": "^3.0.0",
