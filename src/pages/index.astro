@@ -9,8 +9,15 @@ import PreactComponent from '../components/PreactComponent';
 import AlpineComponent from '../components/AlpineComponent.html';  
 ---
 
-<Layout title="Welcome to Astro.">
-	<main class="flex flex-col items-center justify-center min-h-screen bg-neutral-200 p-6">
+<Layout 
+    title="Welcome to Astro." 
+    bodyColor="bg-neutral-600"
+    headerColor="bg-neutral-900"
+    footerColor="bg-neutral-900"
+    headerTextColor="text-white"
+    footerTextColor="text-white"
+>
+	<main class="flex flex-col items-center justify-center ">
     	<AngularComponent/>
 		<ReactComponent/>
 		<VueComponent />
