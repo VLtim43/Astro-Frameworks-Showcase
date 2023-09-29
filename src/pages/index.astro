@@ -4,6 +4,7 @@ import { ReactCard } from "../components/react/ReactCard";
 import { PreactCard } from "../components/preact/PreactCard";
 
 import Layout from "../layouts/Layout.astro";
+import { AngularComponent } from "../components/angular/angularCard.component";
 ---
 
 <Layout
@@ -43,7 +44,7 @@ import Layout from "../layouts/Layout.astro";
         <div class="col-span-2"><AstroCard /></div>
         <div class="h-64"><ReactCard /></div>
         <div class="h-64"><PreactCard /></div>
-        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64"><AngularComponent /></div>
         <div class="h-64 bg-neutral-500">Soon!</div>
         <div class="h-64 bg-neutral-500">Soon!</div>
         <div class="h-64 bg-neutral-500">Soon!</div>
@@ -52,4 +53,5 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </main>
 </Layout>
- ../components/react/ReactCard
+ ../components/react/ReactCard ../components/angular/angular.component
+../components/angular/angularCard.component
