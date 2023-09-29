@@ -1,12 +1,13 @@
 ---
-import SvelteComponent from "../components/SvelteComponent.svelte";
-import { AngularComponent } from "../components/angular.component";
-import { ReactComponent } from "../components/ReactComponent";
-import VueComponent from "../components/VueComponent.vue";
+// import SvelteComponent from "../components/SvelteComponent.svelte";
+// import { AngularComponent } from "../components/angular.component";
+import AstroCard from "../components/AstroCard.astro";
+// import { ReactComponent } from "../components/ReactComponent";
+// import VueComponent from "../components/VueComponent.vue";
+// import SolidComponent from "../components/SolidComponent";
+// import PreactComponent from "../components/PreactComponent";
+// import AlpineComponent from "../components/AlpineComponent.html";
 import Layout from "../layouts/Layout.astro";
-import SolidComponent from "../components/SolidComponent";
-import PreactComponent from "../components/PreactComponent";
-import AlpineComponent from "../components/AlpineComponent.html";
 ---
 
 <Layout
@@ -25,35 +26,33 @@ import AlpineComponent from "../components/AlpineComponent.html";
   <main class="flex items-center flex-col justify-center">
     <div class="p-8 rounded-md max-w-5xl mx-auto text-white">
       <h1 class="text-4xl font-bold mb-4 text-center">
-        Astro, the <span class="text-5xl text-orange-500">Blazingly</span> Fast Web
-        Framework!
+        Astro, the <span class="text-5xl text-orange-500">Blazingly</span> Fast
+        Web Framework!
       </h1>
       <div class="mt-8 text-center">
         <p class="text-lg mb-4">
-          Astro is a revolutionary front-end framework that allows you to build faster, more efficient web projects. It empowers developers by offering seamless integration with various web frameworks.
+          Astro is a revolutionary front-end framework that allows you to build
+          faster, more efficient web projects. It empowers developers by
+          offering seamless integration with various web frameworks.
         </p>
-        <a href="https://astro.build/" class="text-lg text-orange-500 underline hover:text-orange-400" target="_blank" rel="noopener noreferrer">Learn more about Astro</a>
-    </div>
+        <a
+          href="https://astro.build/"
+          class="text-lg text-orange-500 underline hover:text-orange-400"
+          target="_blank"
+          rel="noopener noreferrer">Learn more about Astro</a
+        >
+      </div>
 
-    <div class="grid grid-cols-3 gap-4 my-5">
-        
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-        <div class="p-4"><ReactComponent /></div>
-
-        
+      <div class="h-96 grid grid-cols-3 gap-4 my-5 mt-36">
+        <div class="col-span-2"><AstroCard /></div>
+        <div class="bg-gray-500">content</div>
+        <div class="bg-gray-500">content</div>
+        <div class="bg-gray-500">content</div>
+        <div class="bg-gray-500">content</div>
+        <div class="bg-gray-500">content</div>
+        <div class="bg-gray-500">content</div>
+        <div class="bg-gray-500">content</div>
+      </div>
     </div>
-    
-    
-    
   </main>
 </Layout>
