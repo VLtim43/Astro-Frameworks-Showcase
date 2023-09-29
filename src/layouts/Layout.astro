@@ -1,30 +1,66 @@
 ---
-const { title, bodyColor, headerColor, footerColor, headerTextColor, footerTextColor } = Astro.props;
-
+const {
+  title,
+  bodyColor,
+  headerColor,
+  footerColor,
+  headerTextColor,
+  footerTextColor,
+  headerBorderColor,
+  footerBorderColor,
+  githubLink,
+  headerLogo,
+  headerLink,
+} = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
-		<meta name="description" content="Astro description">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    
   </head>
-  <body class={`flex flex-col h-full m-0 `}>
-	<header class={`${headerColor} ${headerTextColor} text-center p-4`}>
-		<img src="/astroTitleLogo.svg" alt="Astro Logo" class="mb-2 mt-2"/>
-	</header>
-	
-	<main class={`${bodyColor} flex-1`}>
-		<slot />
-	</main>
-	
-	<footer class={`${footerColor} ${footerTextColor} text-center p-4`}>		
-		<p class="text-sm">© 2023 Your Project Name. All rights reserved.</p>
-	</footer>
-	
-</body>
+  <body class={`${bodyColor} flex flex-col  m-0`}>
+    <header
+      class={`${headerColor} ${headerTextColor} flex justify-between items-center p-4 px-10 ${
+        headerBorderColor || ""
+      }`}
+    >
+      <div>
+        <a href={headerLink} target="_blank" rel="noopener noreferrer">
+          <img src={headerLogo} alt="Logo" class="w-40 m-2" />
+        </a>
+      </div>
+
+      <div>
+        <a
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group"
+        >
+          <img
+            src="./github-mark-white.svg"
+            alt="GitHub Logo"
+            class="w-9 h-9 transition-all duration-300 ease-in-out filter group-hover:brightness-50"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main class=`${bodyColor} flex-1`><slot /></main>
+
+    <footer
+      class={`${footerColor} ${footerTextColor} text-center p-4 ${
+        footerBorderColor || ""
+      }`}
+    >
+      <p class="text-sm">© 2023 Your Project Name. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

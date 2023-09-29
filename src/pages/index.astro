@@ -1,29 +1,59 @@
 ---
-import SvelteComponent from '../components/SvelteComponent.svelte';
-import {AngularComponent} from '../components/angular.component';
-import {ReactComponent} from '../components/ReactComponent';
-import VueComponent from '../components/VueComponent.vue';
-import Layout from '../layouts/Layout.astro';
-import SolidComponent from '../components/SolidComponent';
-import PreactComponent from '../components/PreactComponent';
-import AlpineComponent from '../components/AlpineComponent.html';  
+import SvelteComponent from "../components/SvelteComponent.svelte";
+import { AngularComponent } from "../components/angular.component";
+import { ReactComponent } from "../components/ReactComponent";
+import VueComponent from "../components/VueComponent.vue";
+import Layout from "../layouts/Layout.astro";
+import SolidComponent from "../components/SolidComponent";
+import PreactComponent from "../components/PreactComponent";
+import AlpineComponent from "../components/AlpineComponent.html";
 ---
 
-<Layout 
-    title="Welcome to Astro." 
-    bodyColor="bg-neutral-600"
-    headerColor="bg-neutral-900"
-    footerColor="bg-neutral-900"
-    headerTextColor="text-white"
-    footerTextColor="text-white"
+<Layout
+  title="Welcome to Astro."
+  headerColor="bg-transparent"
+  bodyColor="bg-gradient-to-br from-neutral-900 via-neutral-800 to-purple-950"
+  footerColor="bg-transparent"
+  headerTextColor="text-white"
+  footerTextColor="text-white"
+  headerBorderColor="border-b border-zinc-600"
+  footerBorderColor="border-t border-zinc-600"
+  githubLink="https://github.com/VLtim43/Astro-Frameworks-Showcase"
+  headerLogo="/astroTitleLogo.svg"
+  headerLink="https://astro.build/"
 >
-	<main class="flex flex-col items-center justify-center ">
-    	<AngularComponent/>
-		<ReactComponent/>
-		<VueComponent />
-		<SvelteComponent/>
-		<SolidComponent/>
-		<PreactComponent/>
-		<AlpineComponent/>
-	</main>
+  <main class="flex items-center flex-col justify-center">
+    <div class="p-8 rounded-md max-w-5xl mx-auto text-white">
+      <h1 class="text-4xl font-bold mb-4 text-center">
+        Astro, the <span class="text-5xl text-orange-500">Blazingly</span> Fast Web
+        Framework!
+      </h1>
+      <div class="mt-8 text-center">
+        <p class="text-lg mb-4">
+          Astro is a revolutionary front-end framework that allows you to build faster, more efficient web projects. It empowers developers by offering seamless integration with various web frameworks.
+        </p>
+        <a href="https://astro.build/" class="text-lg text-orange-500 underline hover:text-orange-400" target="_blank" rel="noopener noreferrer">Learn more about Astro</a>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 my-5">
+        
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+        <div class="p-4"><ReactComponent /></div>
+
+        
+    </div>
+    
+    
+    
+  </main>
 </Layout>
