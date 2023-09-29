@@ -15,13 +15,16 @@ export default defineConfig({
     analogjsangular({
       include: ["**/analog/*"],
     }),
-    react(),
-    vue(),
-    svelte(),
-    solidJs(),
     preact({
       include: ["**/preact/*"],
     }),
+    react({
+      include: ["**/react/*"],
+    }),
+    vue(),
+    svelte(),
+    solidJs(),
+
     tailwind(),
 
     alpinejs(),

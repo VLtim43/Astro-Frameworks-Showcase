@@ -1,13 +1,8 @@
 ---
-// import SvelteComponent from "../components/SvelteComponent.svelte";
-// import { AngularComponent } from "../components/angular.component";
 import AstroCard from "../components/AstroCard.astro";
-import { ReactComponent } from "../components/ReactComponent";
-// import { ReactComponent } from "../components/ReactComponent";
-// import VueComponent from "../components/VueComponent.vue";
-// import SolidComponent from "../components/SolidComponent";
-// import PreactComponent from "../components/PreactComponent";
-// import AlpineComponent from "../components/AlpineComponent.html";
+import { ReactCard } from "../components/react/ReactCard";
+import { PreactCard } from "../components/preact/PreactCard";
+
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -44,16 +39,17 @@ import Layout from "../layouts/Layout.astro";
         >
       </div>
 
-      <div class="h-96 grid grid-cols-3 gap-4 my-5 mt-36">
+      <div class="grid grid-cols-3 gap-4 my-5 mt-36">
         <div class="col-span-2"><AstroCard /></div>
-        <div><ReactComponent /></div>
-        <div class="bg-gray-500">content</div>
-        <div class="bg-gray-500">content</div>
-        <div class="bg-gray-500">content</div>
-        <div class="bg-gray-500">content</div>
-        <div class="bg-gray-500">content</div>
-        <div class="bg-gray-500">content</div>
+        <div class="h-64"><ReactCard /></div>
+        <div class="h-64"><PreactCard /></div>
+        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64 bg-neutral-500">Soon!</div>
       </div>
     </div>
   </main>
 </Layout>
+ ../components/react/ReactCard

@@ -1,4 +1,4 @@
-export const ReactComponent: React.FC = () => {
+export const ReactCard = () => {
   return (
     <div className="relative flex flex-col justify-between h-full w-full bg-gradient-to-br from-sky-600 to-blue-600 text-gray-200">
       <div className="flex justify-end px-2 pt-1">
