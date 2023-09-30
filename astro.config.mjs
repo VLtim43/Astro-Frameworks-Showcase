@@ -22,8 +22,12 @@ export default defineConfig({
       include: ["**/react/*"],
     }),
     vue(),
-    svelte(),
-    solidJs(),
+    svelte({
+      include: ["**/svelte/*"],
+    }),
+    solidJs({
+      include: ["**/svelte/*"],
+    }),
 
     tailwind(),
 

@@ -35,7 +35,7 @@ import { Component } from "@angular/core";
         justify-content: space-between;
         height: 100%;
         width: 100%;
-        background: linear-gradient(to bottom right, #dd0330, #f87171);
+        background: linear-gradient(to bottom right, #b91c1c, #dc2626);
         color: #e2e8f0;
       }
 
@@ -60,7 +60,7 @@ import { Component } from "@angular/core";
 
       .title {
         font-size: 2.5rem;
-        font-weight: bold;
+        font-weight: 500;
         height: min-content;
         margin-top: -1rem;
       }

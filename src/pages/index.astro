@@ -5,6 +5,8 @@ import { PreactCard } from "../components/preact/PreactCard";
 import VueCard from "../components/Vue/VueCard.vue";
 import Layout from "../layouts/Layout.astro";
 import { AngularCard } from "../components/angular/angularCard.component";
+import SveltCard from "../components/svelte/SveltCard.svelte";
+import SolidCard from "../components/solid/SolidComponent";
 ---
 
 <Layout
@@ -21,7 +23,7 @@ import { AngularCard } from "../components/angular/angularCard.component";
   headerLink="https://astro.build/"
 >
   <main class="flex items-center flex-col justify-center">
-    <div class="p-8 rounded-md max-w-5xl mx-auto text-white my-16">
+    <div class="p-8 rounded-md max-w-5xl mx-auto text-white my-20">
       <h1 class="text-4xl font-bold mb-4 text-center">
         Astro, the <span class="text-5xl text-orange-500">Blazingly</span> Fast
         Web Framework!
@@ -40,18 +42,16 @@ import { AngularCard } from "../components/angular/angularCard.component";
         >
       </div>
 
-      <div class="grid grid-cols-3 gap-4 my-5 mt-36">
+      <div class="grid grid-cols-3 gap-4 my-5 mt-20">
         <div class="col-span-2"><AstroCard /></div>
         <div class="h-64"><ReactCard /></div>
         <div class="h-64"><PreactCard /></div>
         <div class="h-64"><AngularCard /></div>
         <div class="h-64"><VueCard /></div>
-        <div class="h-64 bg-neutral-500">Soon!</div>
-        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64"><SveltCard /></div>
+        <div class="h-64"><SolidCard /></div>
         <div class="h-64 bg-neutral-500">Soon!</div>
       </div>
     </div>
   </main>
 </Layout>
- ../components/react/ReactCard ../components/angular/angular.component
-../components/angular/angularCard.component
