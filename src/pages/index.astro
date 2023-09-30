@@ -2,9 +2,9 @@
 import AstroCard from "../components/AstroCard.astro";
 import { ReactCard } from "../components/react/ReactCard";
 import { PreactCard } from "../components/preact/PreactCard";
-
+import VueCard from "../components/Vue/VueCard.vue";
 import Layout from "../layouts/Layout.astro";
-import { AngularComponent } from "../components/angular/angularCard.component";
+import { AngularCard } from "../components/angular/angularCard.component";
 ---
 
 <Layout
@@ -44,8 +44,8 @@ import { AngularComponent } from "../components/angular/angularCard.component";
         <div class="col-span-2"><AstroCard /></div>
         <div class="h-64"><ReactCard /></div>
         <div class="h-64"><PreactCard /></div>
-        <div class="h-64"><AngularComponent /></div>
-        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64"><AngularCard /></div>
+        <div class="h-64"><VueCard /></div>
         <div class="h-64 bg-neutral-500">Soon!</div>
         <div class="h-64 bg-neutral-500">Soon!</div>
         <div class="h-64 bg-neutral-500">Soon!</div>

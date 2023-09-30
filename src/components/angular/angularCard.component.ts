@@ -53,7 +53,7 @@ import { Component } from "@angular/core";
       .made-with-text {
         color: #ffffff;
         font-size: 0.75rem;
-        padding-left: 0.5rem;
+        padding-top: 0.1rem;
         padding-right: 0.5rem;
         justify-content: space-between;
       }
@@ -76,14 +76,17 @@ import { Component } from "@angular/core";
         cursor: pointer;
       }
 
+      .documentation-link:hover {
+        color: #dd0330;
+      }
+
       .logo {
-        width: 1.75rem;
-        height: 1.75rem;
-        margin: 0.25rem;
+        width: 2.25rem;
+        height: 2.25rem;
         padding: 0.125rem;
       }
     `,
   ],
   standalone: true,
 })
-export class AngularComponent {}
+export class AngularCard {}

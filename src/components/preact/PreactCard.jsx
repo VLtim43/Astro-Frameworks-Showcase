@@ -14,7 +14,7 @@ export const PreactCard = () => {
         </h3>
         <a
           href="https://preactjs.com/"
-          className="text-white hover:text-gray-300 underline"
+          className="text-white hover:text-violet-900 underline"
           target="_blank"
           rel="noopener noreferrer"
         >
