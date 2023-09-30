@@ -9,9 +9,9 @@ import { Component } from "@angular/core";
       </div>
 
       <div class="content">
-        <h1 class="title">Angular</h1>
+        <h2 class="title">Angular</h2>
         <h3 class="subtitle">
-          A platform for building mobile and desktop web applications
+          A framework for building dynamic web applications with TypeScript.
         </h3>
         <a
           href="https://angular.io/"
@@ -37,43 +37,43 @@ import { Component } from "@angular/core";
         width: 100%;
         background: linear-gradient(to bottom right, #dd0330, #f87171);
         color: #e2e8f0;
-        padding: 1rem;
       }
 
       .header,
       .footer {
         display: flex;
         justify-content: flex-end;
-        padding: 0.25rem 0.5rem;
       }
 
       .content {
-        padding: 0.5rem;
+        padding: 0rem 1rem;
+        max-height: 136px;
       }
 
       .made-with-text {
         color: #ffffff;
         font-size: 0.75rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        justify-content: space-between;
       }
 
       .title {
         font-size: 2.5rem;
         font-weight: bold;
+        height: min-content;
+        margin-top: -1rem;
       }
 
       .subtitle {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
       }
 
       .documentation-link {
         color: #ffffff;
         text-decoration: underline;
         cursor: pointer;
-      }
-
-      .documentation-link:hover {
-        color: #007bff;
       }
 
       .logo {
