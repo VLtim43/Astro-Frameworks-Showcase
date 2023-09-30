@@ -1,0 +1,22 @@
+---
+let { name, description, img, link, bgColor, textColor } = Astro.props;
+---
+
+<div class={`flex justify-between ${bgColor} ${textColor}`}>
+  <div class="px-4 py-2 flex flex-col">
+    <h1 class="text-xl font-bold">{name}</h1>
+    <div class="flex justify-between items-center">
+      <p class="text-smt-">{description}</p>
+    </div>
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm underline">View the documentation</a
+    >
+  </div>
+
+  <div class="flex items-center justify-center pr-5">
+    <img src={img} alt={`${name} logo`} class="h-10" />
+  </div>
+</div>

@@ -1,5 +1,7 @@
 ---
-import AstroCard from "../components/AstroCard.astro";
+import AstroCard from "../components/astro/AstroCard.astro";
+import SimpleCard from "../components/astro/SimpleCard.astro";
+
 import { ReactCard } from "../components/react/ReactCard";
 import { PreactCard } from "../components/preact/PreactCard";
 import VueCard from "../components/Vue/VueCard.vue";
@@ -7,6 +9,7 @@ import Layout from "../layouts/Layout.astro";
 import { AngularCard } from "../components/angular/angularCard.component";
 import SveltCard from "../components/svelte/SveltCard.svelte";
 import SolidCard from "../components/solid/SolidComponent";
+import AlpineComponent from "../components/AlpineComponent.html";
 ---
 
 <Layout
@@ -42,7 +45,13 @@ import SolidCard from "../components/solid/SolidComponent";
         >
       </div>
 
-      <div class="grid grid-cols-3 gap-4 my-5 mt-20">
+      <div
+        class="bg-transparent my-14 flex flex-col justify-center items-center"
+      >
+        <div class="border-b border-zinc-700 w-5/6"></div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 mt-20">
         <div class="col-span-2"><AstroCard /></div>
         <div class="h-64"><ReactCard /></div>
         <div class="h-64"><PreactCard /></div>
@@ -50,7 +59,32 @@ import SolidCard from "../components/solid/SolidComponent";
         <div class="h-64"><VueCard /></div>
         <div class="h-64"><SveltCard /></div>
         <div class="h-64"><SolidCard /></div>
-        <div class="h-64 bg-neutral-500">Soon!</div>
+        <div class="h-64"><AlpineComponent /></div>
+      </div>
+
+      <div
+        class="bg-transparent my-14 flex flex-col justify-center items-center"
+      >
+        <div class="border-b border-zinc-700 w-5/6"></div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <SimpleCard
+          name="TailwindCSS"
+          description="A fast, modern front-end framework"
+          img="/tailwindLogo.svg"
+          link="https://astro.build"
+          bgColor="bg-gray-400"
+          textColor="text-gray-800"
+        />
+        <SimpleCard
+          name="Vercel CLI"
+          description="A fast, modern front-end framework"
+          img="/astroLogo.svg"
+          link="https://astro.build"
+          bgColor="bg-gray-400"
+          textColor="text-gray-800"
+        />
       </div>
     </div>
   </main>
