@@ -77,7 +77,7 @@ import { Component } from "@angular/core";
       }
 
       .documentation-link:hover {
-        color: #c4002b;
+        color: #8a8a8a;
       }
 
       .logo {
