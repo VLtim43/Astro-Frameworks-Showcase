@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="relative flex flex-col justify-between h-full w-full bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 text-gray-200"
+  class="relative flex flex-col justify-between h-full w-full bg-svelteOrange text-gray-200"
 >
   <div class="flex justify-end px-2 pt-1">
     <h1 class="font-onest text-xs text-gray-300">Made with Svelte</h1>

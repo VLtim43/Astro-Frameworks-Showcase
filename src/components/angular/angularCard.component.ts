@@ -35,7 +35,7 @@ import { Component } from "@angular/core";
         justify-content: space-between;
         height: 100%;
         width: 100%;
-        background: linear-gradient(to bottom right, #b91c1c, #dc2626);
+        background: linear-gradient(to bottom right, #de002d, #c4002b);
         color: #e2e8f0;
       }
 
@@ -77,7 +77,7 @@ import { Component } from "@angular/core";
       }
 
       .documentation-link:hover {
-        color: #dd0330;
+        color: #c4002b;
       }
 
       .logo {

@@ -1,6 +1,6 @@
 const SolidCard = () => {
   return (
-    <div className="relative flex flex-col justify-between h-full w-full bg-gradient-to-br from-sky-700 to-slate-700 text-gray-200">
+    <div className="relative flex flex-col justify-between h-full w-full bg-solidBlue text-gray-200">
       <div className="flex justify-end px-2 pt-1">
         <h1 className="font-onest text-xs text-gray-300">Made with Solid</h1>
       </div>

@@ -29,8 +29,9 @@ export default defineConfig({
       include: ["**/svelte/*"],
     }),
 
+    solidJs({
+      include: ["**/alpine/*"],
+    }),
     tailwind(),
-
-    alpinejs(),
   ],
 });
