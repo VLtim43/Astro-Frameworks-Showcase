@@ -1,6 +1,7 @@
 <template>
   <div
-    class="relative flex flex-col justify-between h-full w-full bg-gradient-to-br from-emerald-600 via-emerald-700 to-teal-800 text-gray-200"
+    @click="showToast"
+    class="relative flex flex-col justify-between h-full w-full bg-gradient-to-br from-emerald-600 via-emerald-700 to-teal-800 text-gray-200 cursor-pointer"
   >
     <div class="flex justify-end px-2 pt-1">
       <h1 class="font-onest text-xs text-gray-300">Made with Vue</h1>
@@ -9,7 +10,7 @@
     <div class="font-onest px-4">
       <h1 class="text-4xl text-left font-onest font-bold">Vue</h1>
       <h3 class="py-3">
-        An Progressive framework for creating modern web interfaces.
+        A Progressive framework for creating modern web interfaces.
       </h3>
       <a
         href="https://vuejs.org//"
@@ -26,3 +27,19 @@
     </div>
   </div>
 </template>
+
+<script>
+import { useToast } from "vue-toastification";
+
+export default {
+  setup() {
+    const toast = useToast();
+
+    const showToast = () => {
+      toast.success("Hello from Vue!");
+    };
+
+    return { showToast };
+  },
+};
+</script>

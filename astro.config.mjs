@@ -21,7 +21,7 @@ export default defineConfig({
     react({
       include: ["**/react/*"],
     }),
-    vue(),
+    vue({ appEntrypoint: "/src/pages/_app" }),
     svelte({
       include: ["**/svelte/*"],
     }),
@@ -34,4 +34,5 @@ export default defineConfig({
     }),
     tailwind(),
   ],
+  vite: { ssr: { noExternal: ["vue-toastification"] } },
 });
