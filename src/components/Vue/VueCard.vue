@@ -22,7 +22,11 @@
     </div>
 
     <div class="flex justify-end">
-      <img src="/vueLogo.svg" alt="React Logo" class="w-7 h-7 m-1 p-0.5" />
+      <img
+        src="../../../public/vueLogo.svg"
+        alt="React Logo"
+        class="w-7 h-7 m-1 p-0.5"
+      />
     </div>
   </div>
 </template>
