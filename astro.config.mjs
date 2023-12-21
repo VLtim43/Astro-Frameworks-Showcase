@@ -7,8 +7,6 @@ import solidJs from "@astrojs/solid-js";
 import preact from "@astrojs/preact";
 import tailwind from "@astrojs/tailwind";
 
-import alpinejs from "@astrojs/alpinejs";
-
 // https://astro.build/config
 export default defineConfig({
   integrations: [
@@ -30,7 +28,7 @@ export default defineConfig({
     }),
 
     solidJs({
-      include: ["**/alpine/*"],
+      include: ["**/solid/*"],
     }),
     tailwind(),
   ],
